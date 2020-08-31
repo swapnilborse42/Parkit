@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg"
+    tools:context=".Feedbackfragment">
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="260dp"
+        android:text="REACH"
+        android:textColor="@color/common_google_signin_btn_text_light_focused"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="208dp"
+        android:text="TO        "
+        android:textColor="@color/common_google_signin_btn_text_light_focused"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="144dp"
+        android:text="DIFFICULT"
+        android:textColor="@color/common_google_signin_btn_text_light_focused"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="88dp"
+        android:text="FINDING        "
+        android:textColor="@color/common_google_signin_btn_text_light_focused"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonnav2"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="456dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Navigate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

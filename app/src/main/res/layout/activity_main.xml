@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bkg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/common_google_signin_btn_text_light_focused"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One stop solution for Smart Parking"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="PARKIT"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="MOVE SMART.MOVE FAST."
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/spaceullustration"
+        android:orientation="vertical">
+
+        <Button
+
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonstyle"
+            android:onClick="start"
+            android:text="Subscribe" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+

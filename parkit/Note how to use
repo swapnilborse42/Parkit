@@ -1,0 +1,16 @@
+This project is on realtime parking system.
+
+A.There are two apk files one is for user(who wants to park) and another is for admin(the one who is at the parking side)
+note:install both apks on two different devices
+how to use:
+
+User side:(app is based on firebase)
+
+1.The user side app name is parkit.
+2.AS you get sign in(this login is based on firebase) on home page you get the help button....here you find a video to how to use it.
+
+Admin side:(app is static)
+
+1.The admin side apk name is Admin.
+2.As you get login(username: password:) to add user click on button #adduser and similarly click on #enduser while user leave parking
+3.As you click on end user it will generate bill show charges.   

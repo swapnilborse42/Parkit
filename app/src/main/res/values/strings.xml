@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">parkit</string>
+    <string name="nav_home">home</string>
+    <string name="nav_nav">nav</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav" />
+    <string name="home">home</string>
+    <string name="navigation" />
+    <string name="Navigation" />
+    <string name="Home">Home</string>
+    <string name="Navigate">Navigate</string>
+    <string name="title_activity_marker">Map</string>
+    <string name="QR">QR</string>
+    <string name="Feedback">Feedback</string>
+    <string name="qr">QR</string>
+    <string name="feedback">Feedback</string>
+    <string name="Nav">Nav</string>
+
+</resources>

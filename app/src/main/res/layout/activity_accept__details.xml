@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    tools:context=".Accept_Details">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="311dp"
+        android:layout_height="76dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="64dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="360dp"
+            android:layout_height="495dp">
+
+            <EditText
+                android:id="@+id/etcar"
+                android:layout_width="147dp"
+                android:layout_height="63dp"
+                android:layout_marginEnd="78dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="78dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="MH-12 M-1432"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView16"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="94dp"
+                android:layout_height="27dp"
+                android:layout_marginEnd="264dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="264dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="28dp"
+                android:textStyle="bold"
+                android:text="Car Num."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.416"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="311dp"
+        android:layout_height="303dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="360dp"
+            android:layout_height="495dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="74dp"
+                android:layout_height="21dp"
+                android:layout_marginEnd="270dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="270dp"
+                android:layout_marginStart="16dp"
+                android:text=" Email"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etaddress" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="103dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:text="Mobile Number"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etmail1" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="89dp"
+                android:layout_height="23dp"
+                android:layout_marginEnd="252dp"
+                android:layout_marginRight="252dp"
+                android:text="Address"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etname1" />
+
+            <EditText
+                android:id="@+id/etmob"
+                android:layout_width="292dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="244dp"
+                android:ems="10"
+                android:hint="9130547514"
+                android:inputType="phone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etaddress"
+                android:layout_width="289dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="112dp"
+                android:ems="10"
+                android:hint="xyz"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.225"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etmail1"
+                android:layout_width="289dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="180dp"
+                android:ems="10"
+                android:hint="xyz@gmail"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.225"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etname1"
+                android:layout_width="292dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="48dp"
+                android:ems="10"
+                android:hint="Mr. Bean"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.235"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="63dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="280dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="280dp"
+                android:textStyle="bold"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="24dp"
+                android:text="Name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="144dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyle"
+        android:onClick="submit"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:text="Vehicle Information"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="194dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Personal Information"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+
+</android.support.constraint.ConstraintLayout>
